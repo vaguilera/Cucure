@@ -17,10 +17,10 @@ require 'colorize'
 	
 	
 	ARGV.each do|arg|
-		if arg == "-v" then
+		if arg.downcase  == "-v" then
 			puts "Cucure (Cucumber refactoring tool) V#{version}\n"
 		end
-		if arg.start_with?("-F") then
+		if arg.downcase.start_with?("-f") then
 			base_path = arg[2, arg.length - 2] 
 			puts base_path
 		end
