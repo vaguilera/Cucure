@@ -15,7 +15,7 @@ The script search in the following folders:
 
 You can specify the next parameters:
 
-<-V> : Shows script version
+<-V> : Shows script version  
 <-F> : Specify base folder
 
 Example:
